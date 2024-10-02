@@ -1224,7 +1224,7 @@ class SpacetimeAttention(nn.Module):
                 causal_attention=self.causal_attention,
                 device=self.device,
             )
-            
+
             # if self.use_velocity:
             #     self.temporal_model = ETAL_vel(
             #         self.B,
@@ -2157,7 +2157,6 @@ class EGNNvelSchnetBaseline(nn.Module):
             vel_spatial = vel_spatial.reshape(self.B, self.N, self.n)
 
         return (None, loc_spatial, vel_spatial)
-
 
 
 from se3_transformer_pytorch import SE3Transformer
