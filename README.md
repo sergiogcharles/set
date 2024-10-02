@@ -1,5 +1,7 @@
 # Spacetime-E(n) Transformer
 
+This is the PyTorch implementation of Spacetime $E(n)$-Transformer: Equivariant Attention for Spatio-temporal Graphs. The EGNN implementation and charged N-body dataset generation is adapted from: [https://github.com/vgsatorras/egnn.git](https://github.com/vgsatorras/egnn). The classical N-body dataset generation is adapted from: [https://github.com/pmocz/nbody-python](https://github.com/pmocz/nbody-python).
+
 ### N-body system experiment
 
 #### Create Charged N-body dataset
