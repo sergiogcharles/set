@@ -1,0 +1,6 @@
+runs/
+best_models/
+n_body_system/logs/
+n_body_system/dataset/*.npy
+n_body_gravity/dataset/*.npy
+md17/dataset
